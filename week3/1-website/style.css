@@ -39,7 +39,7 @@ body{
 
 .top-navigation {
     background-color: #fff;
-    position: fixed;
+
     width: 100%;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
@@ -61,4 +61,12 @@ body{
     cursor: pointer;
     color: #333333;
 }
+
+.main-container {
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 
