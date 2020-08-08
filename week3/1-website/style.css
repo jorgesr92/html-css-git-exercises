@@ -1,1 +1,64 @@
 /*  Add your styling here */
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: aqua;
+}
+#contact-home{
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 15px;
+    font-size: 24px;    
+}
+
+#logo-home{
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 5px; 
+}
+
+@media screen and (min-width: 700px) {
+    .logo {
+
+        background-color: aqua;
+    }
+}
+
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+    max-width: 100rem;
+}
+
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+    align-items: center;
+}
+.top-navigation .links {
+    display: flex;
+    justify-content: space-around;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
